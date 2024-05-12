@@ -1,2 +1,2 @@
-# vite5-vue3-ts-eslint
-a project have vite5 vue3 ts eslint
+# vue3-demo
+vue3+vite5+typescript eslint prettier
