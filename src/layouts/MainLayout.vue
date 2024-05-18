@@ -9,7 +9,12 @@
     <el-icon-edit></el-icon-edit>
   </el-icon>
   <i-ep-apple></i-ep-apple>
-  <el-button type="success">Success</el-button>
+  <el-button type="success">
+    Success
+    <el-icon>
+      <el-icon-edit></el-icon-edit>
+    </el-icon>
+  </el-button>
 </template>
 
 <script setup lang="ts">
