@@ -12,5 +12,10 @@ export const routes: RouteRecordRaw[] = [
         component: () => import('@/layouts/MainLayout.vue')
       }
     ]
+  },
+  {
+    path: '/map',
+    name: 'map',
+    component: () => import('@/layouts/mapCompontent.vue')
   }
 ]
