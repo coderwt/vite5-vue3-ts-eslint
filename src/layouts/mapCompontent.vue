@@ -81,13 +81,4 @@ const init = () => {
 <template>
   <div id="cesiumContainer" class="w-full h-full"></div>
 </template>
-
-<style scoped>
-#cesiumContainer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-</style>
+<style scoped></style>

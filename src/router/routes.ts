@@ -7,15 +7,15 @@ export const routes: RouteRecordRaw[] = [
     redirect: '/main',
     children: [
       {
-        path: 'main',
-        name: 'main',
-        component: () => import('@/layouts/MainLayout.vue')
+        path: '/cesium',
+        name: 'cesium',
+        component: () => import('@/layouts/mapCompontent.vue')
       }
     ]
   },
   {
-    path: '/map',
-    name: 'map',
-    component: () => import('@/layouts/mapCompontent.vue')
+    path: '/CSSContainer',
+    name: 'CSSContainer',
+    component: () => import('@/layouts/MainLayout.vue')
   }
 ]
