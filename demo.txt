@@ -1,0 +1,15 @@
+template>
+  <fa-icon icon="coffee" />
+</template>
+
+<script>
+// 确保你已经按照文档引入了 FontAwesome 和图标
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+export default {
+  components: {
+    FontAwesomeIcon
+  }
+}
+</script>

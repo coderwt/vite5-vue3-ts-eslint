@@ -49,16 +49,16 @@ const init = () => {
 
   //   store.commit('initViewer', viewer)
   // 外天空盒
-  viewer.scene.skyBox = new Cesium.SkyBox({
-    sources: {
-      positiveX: '/CesiumFile/images/Standard-Cube-Map/px1.png',
-      negativeX: '/CesiumFile/images/Standard-Cube-Map/nx1.png',
-      positiveY: '/CesiumFile/images/Standard-Cube-Map/pz.png',
-      negativeY: '/CesiumFile/images/Standard-Cube-Map/nz1.png',
-      positiveZ: '/CesiumFile/images/Standard-Cube-Map/py.png',
-      negativeZ: '/CesiumFile/images/Standard-Cube-Map/ny1.png'
-    }
-  })
+  // viewer.scene.skyBox = new Cesium.SkyBox({
+  //   sources: {
+  //     positiveX: '/CesiumFile/images/Standard-Cube-Map/px1.png',
+  //     negativeX: '/CesiumFile/images/Standard-Cube-Map/nx1.png',
+  //     positiveY: '/CesiumFile/images/Standard-Cube-Map/pz.png',
+  //     negativeY: '/CesiumFile/images/Standard-Cube-Map/nz1.png',
+  //     positiveZ: '/CesiumFile/images/Standard-Cube-Map/py.png',
+  //     negativeZ: '/CesiumFile/images/Standard-Cube-Map/ny1.png'
+  //   }
+  // })
 
   // 调试使用
   window.viewer = viewer

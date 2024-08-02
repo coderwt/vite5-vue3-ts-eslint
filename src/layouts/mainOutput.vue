@@ -1,9 +1,7 @@
 <template>
   <div class="common-layout w-full h-full">
     <el-container class="w-full h-full">
-      <el-header class="bg-slate-500 text-center leading-normal">
-        Header
-      </el-header>
+      <el-header class="bg-slate-500 text-center leading-[4]">Header</el-header>
       <el-container>
         <el-aside width="200px" class="bg-slate-400">
           <el-menu
@@ -66,6 +64,12 @@ const menuList = [
       {
         label: 'Cesium',
         index: 'cesium',
+        type: 'item',
+        children: []
+      },
+      {
+        label: 'elTable',
+        index: 'elTable',
         type: 'item',
         children: []
       }
